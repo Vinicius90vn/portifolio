@@ -77,3 +77,28 @@ a:hover{
  b{
         font-size: 23px;
 }
+
+@media(max-width:450px) {
+
+img{
+    height: 200px;
+    width: 100px;
+}
+.imagem{
+    text-align: left;
+}
+
+p{
+    font-size: 17px;
+}
+ul.navegacao li{
+    display:inline ;
+   margin-right: 8px ;
+   font-size: 27px;
+
+}
+.container{
+    margin-top: 20px;
+}
+
+}
