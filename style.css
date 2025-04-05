@@ -10,7 +10,10 @@ ul.navegacao li{
    margin-right: 60px ;
    
 }
-
+.projetos{
+   border: solid 5px;
+   border-radius: 20px;
+}
 
 a{
     color: white;
@@ -78,18 +81,22 @@ a:hover{
         font-size: 23px;
 }
 
+main{
+    text-align: justify;
+}
+
 @media(max-width:450px) {
 
 img{
     height: 200px;
-    width: 100px;
+    width: 220px;
 }
 .imagem{
-    text-align: left;
+    text-align: center;
 }
 
 p{
-    font-size: 17px;
+    font-size: 23px;
 }
 ul.navegacao li{
     display:inline ;
@@ -100,5 +107,21 @@ ul.navegacao li{
 .container{
     margin-top: 20px;
 }
+.container{
+    
+        
+    margin: 10px;
+    display: grid;
+    grid-template-columns:  1fr;
+    
+    gap: 0px;
+}
+.informacoes{
+    text-align: center;
+    margin: 0px;
+}
 
+main{
+    text-align: justify;
+}
 }
