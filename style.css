@@ -5,15 +5,36 @@
 }
 footer{
     display: flex;
-    background-color: aliceblue;
+    background-color: #363636;
     height: 70px;
     justify-content: center;
     align-items: center;
 }
+#footer{
+
+    color: white;
+}
+
+ul.navegacao {
+    display: flex;
+    justify-content: space-between; /* Distribui igualmente no eixo principal */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 0; /* Remove padding padrão */
+    list-style: none; /* Remove marcadores de lista */
+}
+
+
+
 
 ul.navegacao li{
-    display:inline ;
-   margin-right: 60px ;
+   
+    
+    margin-right: 0px ;
+    flex: 1;
+    text-align: left;
+    
+   
+   justify-content: space-between;
    
 }
 .projetos{
@@ -138,9 +159,10 @@ main{
 
 #footer{
     font-size: 13px;
+    color: white;
 }
 .footer{
-    background-color: aliceblue;
+    background-color: #363636;
 }
 }
 
