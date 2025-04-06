@@ -11,8 +11,9 @@ ul.navegacao li{
    
 }
 .projetos{
-   border: solid 5px;
+   border: solid 1px;
    border-radius: 20px;
+   box-shadow: 0 0 1em ;
 }
 
 a{
@@ -26,6 +27,7 @@ nav{
 
 body{
     background-color: #A9A9A9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
     
@@ -38,7 +40,13 @@ body{
         margin-top: 200px;
         gap: 0px;
 }
-    
+ .footer{
+    display: flex;
+   
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+ }   
     
     
 .imagem{
@@ -123,5 +131,12 @@ ul.navegacao li{
 
 main{
     text-align: justify;
+}
+
+#footer{
+    font-size: 13px;
+}
+.footer{
+    background-color: aliceblue;
 }
 }
