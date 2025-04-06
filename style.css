@@ -18,7 +18,7 @@ footer{
 ul.navegacao {
     display: flex;
     justify-content: space-between; /* Distribui igualmente no eixo principal */
-    width: 100%; /* Ocupa toda a largura disponível */
+    width: 50%; /* Ocupa toda a largura disponível */
     padding: 0; /* Remove padding padrão */
     list-style: none; /* Remove marcadores de lista */
 }
@@ -29,7 +29,7 @@ ul.navegacao {
 ul.navegacao li{
    
     
-    margin-right: 0px ;
+    margin-right: 0px ;    
     flex: 1;
     text-align: left;
     
@@ -50,6 +50,8 @@ a{
 nav{
     background-color:#363636;
     color: white;
+    position: fixed;
+    width: 100vw;
 }
 
 body{
@@ -64,7 +66,7 @@ body{
         margin: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-top: 200px;
+        margin-top: 100px;
         gap: 0px;
 }
  
@@ -80,8 +82,10 @@ body{
 img{
         border: 3px solid ;
         border-radius: 50% ;
-        height:450px;
-        width: 400px;
+        height:300px;
+        width: 300px;
+        object-fit: cover;
+        border: none;
     
 }
     
@@ -93,15 +97,19 @@ strong{
  p{
         font-size: 25px;
 }
-.informacoes{
+/*.informacoes{
         margin-right: 100px;
 }
-
+*/
     
 
 .link{
        width: 50px;
        height: 50px;
+}
+.link:hover{
+    width: 70px;
+    height: 70px;
 }
 
 a:hover{
@@ -121,7 +129,9 @@ main{
 
 img{
     height: 200px;
-    width: 220px;
+    width: 200px;
+    object-fit: cover;
+    border:none;
 }
 .imagem{
     text-align: center;
@@ -164,6 +174,14 @@ main{
 .footer{
     background-color: #363636;
 }
+ul.navegacao {
+    display: flex;
+    justify-content: space-between; /* Distribui igualmente no eixo principal */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 0; /* Remove padding padrão */
+    list-style: none; /* Remove marcadores de lista */
+}
+
 }
 
 
@@ -171,7 +189,7 @@ main{
 @media(min-width:450px ) and (max-width: 700px){
 
     ul.navegacao li{ 
-    font-size: 15px;
+    font-size: 25px;
     }
 
     img{
@@ -179,22 +197,30 @@ main{
         border-radius: 50% ;
         height:200px;
         width: 200px;
+        object-fit: cover;
+        border: none;
     
 }
 
 .container{
     
-        
+       
     margin: 10px;
     display: grid;
     grid-template-columns:  1fr;
-    margin-top: 100px;
+    margin-top: 70px;
     gap: 0px;
 }
 .informacoes{
     margin-right: 10px;
 }
-
+ul.navegacao {
+    display: flex;
+    justify-content: space-between; /* Distribui igualmente no eixo principal */
+    width: 60%; /* Ocupa toda a largura disponível */
+    padding: 0; /* Remove padding padrão */
+    list-style: none; /* Remove marcadores de lista */
+}
 
 
 
