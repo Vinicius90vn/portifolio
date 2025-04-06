@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+footer{
+    display: flex;
+    background-color: aliceblue;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
 
 ul.navegacao li{
     display:inline ;
@@ -40,14 +46,11 @@ body{
         margin-top: 200px;
         gap: 0px;
 }
- .footer{
+ 
+#navegacao{
     display: flex;
-   
-    height: 50px;
-    justify-content: center;
-    align-items: center;
- }   
-    
+    text-wrap: wrap;
+} 
     
 .imagem{
         text-align: center;
@@ -139,4 +142,38 @@ main{
 .footer{
     background-color: aliceblue;
 }
+}
+
+
+
+@media(min-width:450px ) and (max-width: 700px){
+
+    ul.navegacao li{ 
+    font-size: 15px;
+    }
+
+    img{
+        border: 3px solid ;
+        border-radius: 50% ;
+        height:200px;
+        width: 200px;
+    
+}
+
+.container{
+    
+        
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    gap: 0px;
+}
+.informacoes{
+    margin-right: 10px;
+}
+
+
+
+
 }
