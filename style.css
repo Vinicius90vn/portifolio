@@ -189,7 +189,9 @@ strong{
 b{
     font-size: 19px;
 }
-
+.projetos p b{
+    font-size: 17px;
+}
 
 
 }
